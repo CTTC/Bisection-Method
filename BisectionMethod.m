@@ -4,7 +4,7 @@ function xc = BisectionMethod(f,a,b,TOL)
 %       a is the left end point of the range
 %       b is the right end point of the range
 %       TOL is the solution error
-%       xc is the root
+%Output:xc is the root
 t=1;
 disp('Initial Range:');
 disp([' a=' num2str(a) ' b=' num2str(b)]);
