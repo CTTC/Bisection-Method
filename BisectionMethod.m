@@ -1,7 +1,10 @@
 function xc = BisectionMethod(f,a,b,TOL)
 %Using Bisection Method to find the root of f(x)=0
-%The solution error is set to be TOL
-%f should be an anonymous function
+%Input: f is an anonymous function
+%       a is the left end point of the range
+%       b is the right end point of the range
+%       TOL is the solution error
+%       xc is the root
 t=1;
 disp('Initial Range:');
 disp([' a=' num2str(a) ' b=' num2str(b)]);
